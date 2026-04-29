@@ -89,7 +89,7 @@ export async function createWorkout(
   }
 }
 
-export async function logLiftEntry(
+export async function saveLiftMaxes
   _previousState: FormState,
   formData: FormData,
 ): Promise<FormState> {
